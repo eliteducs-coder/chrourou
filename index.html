@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>محمد أشرورو </title>
-    
+    <title>محمد أشرورو | الموقع الرسمي</title>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts (Cairo) -->
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome للأيقونات -->
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- إعدادات إضافية للتصميم -->
+
     <script>
         tailwind.config = {
             theme: {
@@ -24,7 +23,7 @@
                     },
                     colors: {
                         pam: {
-                            blue: '#1d4ed8', // اللون الأزرق الخاص بالحزب
+                            blue: '#1d4ed8',
                             light: '#eff6ff',
                         }
                     }
@@ -32,68 +31,123 @@
             }
         }
     </script>
+
     <style>
-        body { font-family: 'Cairo', sans-serif; }
+        body{
+            font-family:'Cairo',sans-serif;
+        }
     </style>
 </head>
-<body class="bg-gradient-to-br from-pam-light to-gray-100 min-h-screen flex flex-col items-center justify-center text-center p-4">
-    
-    <!-- الحاوية الرئيسية -->
-    <div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden p-10 md:p-16 relative border border-gray-100">
-        <!-- شريط علوي تزييني -->
-        <div class="absolute top-0 left-0 w-full h-3 bg-pam-blue"></div>
 
-        <!-- هوية الحزب والمرشح -->
+<body class="bg-gradient-to-br from-pam-light to-gray-100 min-h-screen flex items-center justify-center p-4">
+
+<div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100 relative">
+
+    <!-- الشريط العلوي -->
+    <div class="absolute top-0 left-0 w-full h-3 bg-pam-blue"></div>
+
+    <div class="p-10 md:p-16 text-center">
+
+        <!-- الصورة -->
         <div class="mb-8">
-            <div class="w-24 h-24 bg-pam-light text-pam-blue rounded-full flex items-center justify-center mx-auto mb-4 text-4xl shadow-inner">
-                <i class="fa-solid fa-tractor"></i>
+            <div class="w-28 h-28 mx-auto rounded-full overflow-hidden border-4 border-pam-light shadow-md">
+                <img
+                    src="https://raw.githubusercontent.com/eliteducs-coder/chrourou/refs/heads/main/chrourou.png"
+                    alt="محمد أشرورو"
+                    class="w-full h-full object-cover">
             </div>
-            <h2 class="text-blue-900 font-bold text-xl mb-1">حزب الأصالة والمعاصرة</h2>
-            <p class="text-gray-500 text-sm">تجديد الثقة استمرار للعهد</p>
+
+            <h2 class="mt-5 text-3xl font-extrabold text-blue-900">
+                محمد أشرورو
+            </h2>
+
+            <p class="text-gray-500 mt-2">
+                الموقع الرسمي
+            </p>
         </div>
 
-        <!-- العنوان الرئيسي -->
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">
-            الموقع في <span class="text-pam-blue">طور الإنجاز</span>
+        <!-- العنوان -->
+
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
+            الموقع
+            <span class="text-pam-blue">
+                قيد الإنجاز
+            </span>
         </h1>
-        
-        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-            نعمل حالياً على تجهيز الموقع الرسمي والمنصة التواصلية الخاصة بالمرشح <strong class="text-gray-800">محمد أشرورو</strong>، مرشح دائرة الخميسات - أولماس.<br>
-            سنعود قريباً لنضع بين أيديكم البرنامج الانتخابي، الحصيلة، وآخر المستجدات.
+
+        <!-- الوصف -->
+
+        <p class="mt-6 text-lg text-gray-600 leading-9">
+            نعمل حالياً على إعداد الموقع الرسمي للسيد
+            <strong class="text-gray-800">
+                محمد أشرورو
+            </strong>.
         </p>
 
-        <!-- تأثير التحميل (Loading Animation) -->
-        <div class="flex justify-center items-center space-x-2 space-x-reverse mb-10">
-            <div class="w-3 h-3 bg-pam-blue rounded-full animate-bounce"></div>
-            <div class="w-3 h-3 bg-blue-400 rounded-full animate-bounce" style="animation-delay: 0.1s"></div>
-            <div class="w-3 h-3 bg-blue-200 rounded-full animate-bounce" style="animation-delay: 0.2s"></div>
+        <!-- مؤثر التحميل -->
+
+        <div class="flex justify-center mt-10 gap-2">
+
+            <div class="w-3 h-3 rounded-full bg-pam-blue animate-bounce"></div>
+
+            <div class="w-3 h-3 rounded-full bg-blue-400 animate-bounce"
+                 style="animation-delay:.15s"></div>
+
+            <div class="w-3 h-3 rounded-full bg-blue-200 animate-bounce"
+                 style="animation-delay:.30s"></div>
+
         </div>
 
-        <!-- رابط النطاق -->
-        <div class="inline-block bg-pam-light text-pam-blue font-bold py-2 px-8 rounded-full border border-blue-100 mb-8 text-lg tracking-wider" dir="ltr">
-            www.chrourou.ma
+        <!-- اسم النطاق -->
+
+        <div class="mt-10">
+
+            <span class="inline-block bg-pam-light text-pam-blue border border-blue-100 rounded-full px-8 py-3 text-lg font-bold tracking-wider"
+                  dir="ltr">
+
+                www.chrourou.ma
+
+            </span>
+
         </div>
 
-        <!-- روابط التواصل الاجتماعي (انتظاراً للتفعيل) -->
-        <div class="flex justify-center space-x-4 space-x-reverse mt-4 border-t pt-8 border-gray-100">
-            <a href="#" class="w-12 h-12 rounded-full bg-gray-50 text-gray-400 flex items-center justify-center hover:bg-pam-blue hover:text-white transition-colors duration-300 text-lg shadow-sm hover:shadow-md">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="#" class="w-12 h-12 rounded-full bg-gray-50 text-gray-400 flex items-center justify-center hover:bg-pam-blue hover:text-white transition-colors duration-300 text-lg shadow-sm hover:shadow-md">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" class="w-12 h-12 rounded-full bg-gray-50 text-gray-400 flex items-center justify-center hover:bg-pam-blue hover:text-white transition-colors duration-300 text-lg shadow-sm hover:shadow-md">
-                <i class="fa-brands fa-tiktok"></i>
-            </a>
-            <a href="#" class="w-12 h-12 rounded-full bg-gray-50 text-gray-400 flex items-center justify-center hover:bg-pam-blue hover:text-white transition-colors duration-300 text-lg shadow-sm hover:shadow-md">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
+        <!-- وسائل التواصل -->
+
+        <div class="border-t border-gray-100 mt-10 pt-8">
+
+            <div class="flex justify-center gap-4">
+
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+
+                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
+            </div>
+
         </div>
+
     </div>
 
-    <!-- التذييل -->
-    <div class="mt-8 text-gray-400 text-sm font-medium">
-        &copy; 2026 جميع الحقوق محفوظة | الحملة الانتخابية لمحمد أشرورو
-    </div>
+</div>
+
+<!-- التذييل -->
+
+<footer class="mt-8 text-center text-gray-400 text-sm">
+
+    &copy; 2026 جميع الحقوق محفوظة
+
+</footer>
+
 </body>
 </html>
