@@ -35,118 +35,93 @@
     <style>
         body{
             font-family:'Cairo',sans-serif;
+            background-color: #f4f6f9;
         }
     </style>
 </head>
 
-<body class="bg-gradient-to-br from-pam-light to-gray-100 min-h-screen flex items-center justify-center p-4">
+<body class="min-h-screen flex flex-col items-center justify-center p-4 relative">
 
-<div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100 relative">
+<div class="max-w-2xl w-full bg-white rounded-3xl shadow-2xl overflow-hidden relative mb-12">
 
     <!-- الشريط العلوي -->
     <div class="absolute top-0 left-0 w-full h-3 bg-pam-blue"></div>
 
-    <div class="p-10 md:p-16 text-center">
+    <div class="p-10 md:p-14 text-center">
 
         <!-- الصورة -->
-        <div class="mb-8">
-            <div class="w-28 h-28 mx-auto rounded-full overflow-hidden border-4 border-pam-light shadow-md">
+        <div class="mb-6">
+            <div class="w-24 h-24 mx-auto rounded-full overflow-hidden border-4 border-pam-light shadow-sm bg-blue-50">
                 <img
                     src="https://raw.githubusercontent.com/eliteducs-coder/chrourou/refs/heads/main/chrourou.png"
                     alt="محمد أشرورو"
                     class="w-full h-full object-cover">
             </div>
 
-            <h2 class="mt-5 text-3xl font-extrabold text-blue-900">
+            <h2 class="mt-4 text-2xl font-extrabold text-blue-900">
                 محمد أشرورو
             </h2>
 
-            <p class="text-gray-500 mt-2">
+            <p class="text-gray-400 text-sm mt-1 font-semibold">
                 الموقع الرسمي
             </p>
         </div>
 
         <!-- العنوان -->
-
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight mt-6">
             الموقع
-            <span class="text-pam-blue">
-                قيد الإنجاز
-            </span>
+            <span class="text-pam-blue">قيد</span>
+            الإنجاز
         </h1>
 
         <!-- الوصف -->
-
-        <p class="mt-6 text-lg text-gray-600 leading-9">
+        <p class="mt-5 text-gray-500 leading-relaxed font-medium">
             نعمل حالياً على إعداد الموقع الرسمي للسيد
-            <strong class="text-gray-800">
+            <strong class="text-gray-800 font-bold">
                 محمد أشرورو
             </strong>.
         </p>
 
         <!-- مؤثر التحميل -->
-
-        <div class="flex justify-center mt-10 gap-2">
-
-            <div class="w-3 h-3 rounded-full bg-pam-blue animate-bounce"></div>
-
-            <div class="w-3 h-3 rounded-full bg-blue-400 animate-bounce"
-                 style="animation-delay:.15s"></div>
-
-            <div class="w-3 h-3 rounded-full bg-blue-200 animate-bounce"
-                 style="animation-delay:.30s"></div>
-
+        <div class="flex justify-center mt-8 gap-2">
+            <div class="w-2.5 h-2.5 rounded-full bg-pam-blue animate-pulse"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse" style="animation-delay:.15s"></div>
+            <div class="w-2.5 h-2.5 rounded-full bg-blue-300 animate-pulse" style="animation-delay:.30s"></div>
         </div>
 
         <!-- اسم النطاق -->
-
         <div class="mt-10">
-
-            <span class="inline-block bg-pam-light text-pam-blue border border-blue-100 rounded-full px-8 py-3 text-lg font-bold tracking-wider"
+            <span class="inline-block bg-blue-50 text-pam-blue rounded-full px-8 py-3 text-sm font-bold tracking-wider"
                   dir="ltr">
-
                 www.chrourou.ma
-
             </span>
-
         </div>
 
         <!-- وسائل التواصل -->
-
         <div class="border-t border-gray-100 mt-10 pt-8">
-
-            <div class="flex justify-center gap-4">
-
-                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
-                    <i class="fab fa-facebook-f"></i>
+            <div class="flex justify-center gap-4 text-gray-400">
+                <a href="#" class="w-10 h-10 rounded-full bg-gray-50 hover:bg-pam-blue hover:text-white transition-colors flex items-center justify-center">
+                    <i class="fab fa-facebook-f text-sm"></i>
                 </a>
-
-                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
-                    <i class="fab fa-instagram"></i>
+                <a href="#" class="w-10 h-10 rounded-full bg-gray-50 hover:bg-pam-blue hover:text-white transition-colors flex items-center justify-center">
+                    <i class="fab fa-instagram text-sm"></i>
                 </a>
-
-                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
-                    <i class="fab fa-tiktok"></i>
+                <a href="#" class="w-10 h-10 rounded-full bg-gray-50 hover:bg-pam-blue hover:text-white transition-colors flex items-center justify-center">
+                    <i class="fab fa-tiktok text-sm"></i>
                 </a>
-
-                <a href="#" class="w-12 h-12 rounded-full bg-gray-100 hover:bg-pam-blue hover:text-white text-gray-400 transition flex items-center justify-center">
-                    <i class="fab fa-youtube"></i>
+                <a href="#" class="w-10 h-10 rounded-full bg-gray-50 hover:bg-pam-blue hover:text-white transition-colors flex items-center justify-center">
+                    <i class="fab fa-youtube text-sm"></i>
                 </a>
-
             </div>
-
         </div>
 
     </div>
 
 </div>
 
-<!-- التذييل -->
-
-<footer class="mt-8 text-center text-gray-400 text-sm">
-
+<!-- التذييل في الأسفل دائماً -->
+<footer class="absolute bottom-4 w-full text-center text-gray-400 text-xs font-medium">
     &copy; 2026 جميع الحقوق محفوظة
-
 </footer>
 
 </body>
